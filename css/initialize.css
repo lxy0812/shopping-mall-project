@@ -6,10 +6,13 @@ code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
 small{ font-size:12px; }
 ul, ol { list-style:none; }
 a { text-decoration:none; }
-a:hover { text-decoration:underline; }
-sup { vertical-align:text-top; }
-sub{ vertical-align:text-bottom; }
+/* a:hover { text-decoration:underline; } */
+/* sup { vertical-align:text-top; } */
+/* sub{ vertical-align:text-bottom; } */
 legend { color:#000; }
-fieldset, img { border:0; }
+fieldset, img { border:none; }
 button, input, select, textarea { font-size:100%; }
 table { border-collapse:collapse; border-spacing:0; }
+a,p{
+    text-align: center; /* 文字居中 */
+}
